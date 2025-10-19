@@ -49,7 +49,7 @@ export default function Userdetails() {
           <p>{user.email}</p>
           <p>{user.phone}</p>
           <p>{user.website}</p>
-          <p className="text-gray-100">{user.company.name}</p>
+          <p>{user.company.name}</p>
           <p>
             {user.address.street}, {user.address.city}
           </p>
